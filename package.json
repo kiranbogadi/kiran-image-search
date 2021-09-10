@@ -1,0 +1,24 @@
+{
+  "name": "kiran-image-search",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Image search engine using an external service.",
+  "main": "server.js",
+  "scripts": {
+    "postinstall": "npm --prefix ./frontend install",
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Kiran Bogadi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "nodemon": "^2.0.12"
+  }
+}
