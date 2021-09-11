@@ -3,7 +3,7 @@
 Image search Engine app using [Unsplash API](https://unsplash.com/developers)
 
 
-## Development
+### Development
 
 This app has been developed using [React](https://reactjs.org/) and [NodeJs](https://nodejs.org/en/)
 
@@ -15,8 +15,10 @@ This app has been developed using [React](https://reactjs.org/) and [NodeJs](htt
 
 ### Steps to run the app in your local
 
-1) Open the terminal in your project folder and type `npm install` install the node dependencies in your local setup
+1) Open the terminal in your project folder and run `npm install` to install the node dependencies in your local setup
 
-2) Then type `npm run dev` to start the app in your local
+2) Navigate to `frontend` folder by typing `cd frontend` and run `npm install` to install React dependencies in your local
 
-3) open the browser and type the URL [http://localhost:3000/](http://localhost:3000/)
+3) and then navigate to main folder by typing `cd ..`  and run `npm run dev` to start the app in your local
+
+4) open the browser and type the URL [http://localhost:3000/](http://localhost:3000/) to see the output
